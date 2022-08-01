@@ -18,7 +18,7 @@ To generate or modify labels,
 
 ```bash
 # Show labels as they are being processed with the visualization argument
-python3 scripts/generate_labels.py
+python3 scripts/generate_data.py
     data=nuscenes \
     data.version=v1.0-trainval \
     data.dataset_dir=/media/datasets/nuscenes \
@@ -26,7 +26,7 @@ python3 scripts/generate_labels.py
     visualization=nuscenes_viz
 
 # Disable visualizations by omitting the "visualization" flag
-python3 scripts/generate_labels.py \
+python3 scripts/generate_data.py \
     data=nuscenes \
     data.version=v1.0-trainval \
     data.dataset_dir=/media/datasets/nuscenes \
